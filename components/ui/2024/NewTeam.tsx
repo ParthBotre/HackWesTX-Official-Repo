@@ -1,9 +1,8 @@
 import OpenInNewIcon from "@mui/icons-material/OpenInNew";
-import { Grid, IconButton, Paper, Typography, useTheme } from "@mui/material";
+import { Grid, IconButton, Paper, Typography } from "@mui/material";
 import Avatar from "@mui/material/Avatar";
 import { Box } from "@mui/system";
-import { team2024FallHWT } from '../../../lib/constants/team-fall-2024'
-import styles from "../../../styles/Home.module.css";
+import { team2024FallHWT } from '../../../lib/constants/team-fall-2024';
 
 type TeamMemberProps = {
   name: string;
