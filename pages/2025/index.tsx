@@ -7,7 +7,7 @@ import BannerImage from "../../assets/2025-assets/HWT-banner.jpg";
 import FrequentQuestions from "../../components/ui/2024/faq";
 import Floating_Nav from "../../components/ui/2024/Floating-Nav";
 import NewTeam from "../../components/ui/2024/NewTeam";
-import ScheduleBloc from "../../components/ui/2024/ScheduleBloc";
+import ScheduleBloc from "../../components/ui/2025/ScheduleBloc";
 import SectionHeader from "../../components/ui/2024/sectionHeader";
 import SponsorBlock from "../../components/ui/2024/SponsorBlock";
 import Footer from "../../components/ui/2025/NewFooter";
@@ -48,7 +48,7 @@ function Home_2025() {
     return (
         <>
             <style>{sparkleStyles}</style>
-            <Grid container overflow="clip" className="bg-gradient-to-b from-gray-900 to-black">
+            <Grid container overflow="clip" className="bg-gradient-to-b from-[#020116] via-[#010010] to-[#010012]">
                 <div className="flex flex-col justify-center w-full h-full gap-y-5">
                     <div className="relative w-full flex justify-center" id="home">
                         <Grid item xs={12}>
@@ -71,15 +71,26 @@ function Home_2025() {
                         </Grid>
                     </div>
                     <Floating_Nav />
-                    <div className="my-12 flex flex-col justify-center text-center font-light text-3xl w-3/4 gap-8 mx-auto">
+                    <div className="my-12 flex flex-col justify-center text-center font-light text-3xl w-3/4 gap-8 mx-auto text-white">
                         <div className="transform hover:scale-105 transition-transform duration-300">
-                            HackWes<div className="inline text-blue-500 sparkle-text">TX</div> VI is Texas Tech's <div className="inline text-purple-500 sparkle-text">sixth</div> student-run hackathon.
+                            HackWes
+                            <span className="inline text-blue-500 sparkle-text">TX</span>
+                            VI is Texas Tech's
+                            <span className="inline text-purple-500 sparkle-text">sixth</span>
+                            student-run hackathon.
                         </div>
                         <div className="transform hover:scale-105 transition-transform duration-300">
-                            A hackathon is an event where participants, often working in teams, engage in <div className="inline text-blue-500 sparkle-text">intensive collaboration</div> to create innovative solutions to <div className="inline text-purple-500 sparkle-text">real world problems</div> within a limited time frame.
+                            A hackathon is an event where participants, often working in teams,
+                            engage in
+                            <span className="inline text-blue-500 sparkle-text"> intensive collaboration </span>
+                            to create innovative solutions to
+                            <span className="inline text-purple-500 sparkle-text"> real world problems </span>
+                            within a limited time frame.
                         </div>
                         <div className="transform hover:scale-105 transition-transform duration-300">
-                            HackWesTX is a <div className="inline text-blue-500 sparkle-text">24-hour</div> event.
+                            HackWesTX is a
+                            <span className="inline text-blue-500 sparkle-text"> 24-hour </span>
+                            event.
                         </div>
                     </div>
                     <Grid item xs={12} mt={10} px="auto" className="bg-gray-800 bg-opacity-50 py-8 rounded-xl mx-4">
