@@ -6,11 +6,11 @@ import React, { useEffect, useState } from "react";
 import BannerImage from "../../assets/2025-assets/HWT-banner.jpg";
 import FrequentQuestions from "../../components/ui/2024/faq";
 import Floating_Nav from "../../components/ui/2024/Floating-Nav";
-import Footer from "../../components/ui/2024/NewFooter";
 import NewTeam from "../../components/ui/2024/NewTeam";
 import ScheduleBloc from "../../components/ui/2024/ScheduleBloc";
 import SectionHeader from "../../components/ui/2024/sectionHeader";
 import SponsorBlock from "../../components/ui/2024/SponsorBlock";
+import Footer from "../../components/ui/2025/NewFooter";
 
 // Add sparkle text styles
 const sparkleStyles = `

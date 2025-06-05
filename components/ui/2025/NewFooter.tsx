@@ -1,13 +1,11 @@
+import { Instagram } from "@mui/icons-material";
 import ForumIcon from "@mui/icons-material/Forum";
 import MailIcon from "@mui/icons-material/Mail";
 import SchoolIcon from "@mui/icons-material/School";
-import TwitterIcon from "@mui/icons-material/Twitter";
-import { Instagram } from "@mui/icons-material";
-import { Grid, Stack, Typography, useTheme } from "@mui/material";
-import IconLink from "../../individual/IconLink";
-import Logo from "../../../assets/2024-assets/logo.png"
+import { Grid, Stack, useTheme } from "@mui/material";
 import Image from "next/image";
-import { Poppins } from "next/font/google";
+import Logo from "../../../assets/2025-assets/HWT25_logo.png";
+import IconLink from "../../individual/IconLink";
 
 /**
  * @fileoverview Social plugs and goodbyes w peace and love
