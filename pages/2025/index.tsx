@@ -18,6 +18,46 @@ const sparkleStyles = `
     filter: drop-shadow(0 0 10px rgba(138, 43, 226, 0.6)) drop-shadow(0 0 20px rgba(0, 191, 255, 0.4));
     text-shadow: 0 0 10px rgba(138, 43, 226, 0.6), 0 0 20px rgba(0, 191, 255, 0.4);
 }
+
+.section-divider {
+    background: linear-gradient(to right, rgba(96, 165, 250, 0.1), rgba(168, 85, 247, 0.1));
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(96, 165, 250, 0.2);
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    transition: all 0.3s ease-in-out;
+}
+
+.section-divider:hover {
+    background: linear-gradient(to right, rgba(96, 165, 250, 0.15), rgba(168, 85, 247, 0.15));
+    border-color: rgba(96, 165, 250, 0.3);
+}
+
+.section-transition {
+    position: relative;
+    margin: 2rem 0;
+}
+
+.section-transition::before {
+    content: '';
+    position: absolute;
+    top: -2rem;
+    left: 0;
+    right: 0;
+    height: 2rem;
+    background: linear-gradient(to bottom, rgba(2, 1, 22, 0) 0%, rgba(2, 1, 22, 0.5) 100%);
+    pointer-events: none;
+}
+
+.section-transition::after {
+    content: '';
+    position: absolute;
+    bottom: -2rem;
+    left: 0;
+    right: 0;
+    height: 2rem;
+    background: linear-gradient(to top, rgba(2, 1, 22, 0) 0%, rgba(2, 1, 22, 0.5) 100%);
+    pointer-events: none;
+}
 `;
 
 function Home_2025() {
@@ -71,36 +111,42 @@ function Home_2025() {
                         </Grid>
                     </div>
                     <Floating_Nav />
-                    <div className="my-12 flex flex-col justify-center text-center font-light text-3xl w-3/4 gap-8 mx-auto">
+                    <div className="my-12 flex flex-col justify-center text-center font-light text-3xl w-3/4 gap-8 mx-auto text-white">
                         <div className="transform hover:scale-105 transition-transform duration-300">
-                            HackWes<div className="inline text-blue-500 sparkle-text">TX</div> VI is Texas Tech's <div className="inline text-purple-500 sparkle-text">sixth</div> student-run hackathon.
+                            Welcome to <span className="sparkle-text bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-purple-500">HackWesTX VI</span>, Texas Tech's <span className="sparkle-text bg-clip-text text-transparent bg-gradient-to-r from-purple-400 to-blue-500">sixth</span> student-run hackathon.
                         </div>
                         <div className="transform hover:scale-105 transition-transform duration-300">
-                            A hackathon is an event where participants, often working in teams, engage in <div className="inline text-blue-500 sparkle-text">intensive collaboration</div> to create innovative solutions to <div className="inline text-purple-500 sparkle-text">real world problems</div> within a limited time frame.
+                            Join us for an epic <span className="sparkle-text bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-purple-500">24-hour</span> adventure where brilliant minds unite to create <span className="sparkle-text bg-clip-text text-transparent bg-gradient-to-r from-purple-400 to-blue-500">innovative solutions</span> to real-world challenges.
                         </div>
                         <div className="transform hover:scale-105 transition-transform duration-300">
-                            HackWesTX is a <div className="inline text-blue-500 sparkle-text">24-hour</div> event.
+                            Experience the <span className="sparkle-text bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-purple-500">Wild West</span> of innovation, where creativity knows no bounds!
                         </div>
                     </div>
-                    <div className="bg-gray-800 bg-opacity-50 py-8 rounded-xl mx-4">
-                        <ScheduleBloc />
+                    <div className="section-transition">
+                        <div className="section-divider py-8 rounded-xl mx-4">
+                            <ScheduleBloc />
+                        </div>
                     </div>
-                    <div className="bg-gray-800 bg-opacity-50 py-8 rounded-xl mx-4">
-                        <SponsorBlock />
+                    <div className="section-transition">
+                        <div className="section-divider py-8 rounded-xl mx-4">
+                            <SponsorBlock />
+                        </div>
                     </div>
-                    <div className="bg-gray-800 bg-opacity-50 py-8 rounded-xl mx-4">
-                        <SectionHeader header="FAQ" />
-                        <div className="flex flex-col mx-auto w-4/5 my-8">
-                            <div className="text-center font-light text-3xl mx-auto">
-                                For any additional questions{" "}
-                                <Link className="text-blue-500 hover:text-purple-500 transition-colors duration-300 sparkle-text" href="mailto:contact@hackwestx.tech">
-                                    contact us
-                                </Link>
+                    <div className="section-transition">
+                        <div className="section-divider py-8 rounded-xl mx-4">
+                            <SectionHeader header="FAQ" />
+                            <div className="flex flex-col mx-auto w-4/5 my-8">
+                                <div className="text-center font-light text-3xl mx-auto text-white">
+                                    Got questions?{" "}
+                                    <Link className="sparkle-text bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-purple-500 hover:from-purple-400 hover:to-blue-500 transition-all duration-300" href="mailto:contact@hackwestx.tech">
+                                        Contact us
+                                    </Link>
+                                </div>
+                                <FrequentQuestions />
                             </div>
-                            <FrequentQuestions />
                         </div>
                     </div>
-                    <div className="bg-gray-800 bg-opacity-50 py-8 rounded-xl mx-4">
+                    <div className="section-transition">
                         <SectionHeader header="Our Team" />
                         <NewTeam />
                     </div>

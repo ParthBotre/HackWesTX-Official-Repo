@@ -31,86 +31,84 @@ const faq = [
 
 const faqNew = [
   {
-    value: "Is the site going to change?",
-    description: "Most definitely! We're working behind the scenes to update the site to something more recent and functional. Hopefully with QR codes and on-site interactions. 😌",
-    icon: ""
+    value: "What's New in HackWesTX VI?",
+    description: "Get ready for an epic adventure! We're bringing cutting-edge tech, exciting workshops, and amazing prizes to Texas Tech. Plus, we're adding QR code check-ins and real-time project tracking to make your experience even better! 🚀",
+    icon: "🌟"
   },
   {
-    value: "What is a hackathon?",
-    description: "Hackathons are events where many hackers and innovators come together to collaborate and create software or hardware projects.",
-    icon: ""
+    value: "What is a Hackathon?",
+    description: "Imagine a 24-hour innovation sprint where brilliant minds unite! A hackathon is where creativity meets technology - you'll build amazing projects, learn new skills, and make lifelong connections. It's not just coding; it's an adventure in innovation! 💡",
+    icon: "💻"
   },
   {
     value: "How much does it cost to participate?",
-    description: "HackWesTX is completely free for students!",
-    icon: ""
+    description: "Absolutely FREE! We believe in making tech accessible to everyone. Your ticket to innovation comes with meals, swag, and an unforgettable experience - all on us! 🎉",
+    icon: "💰"
   },
   {
     value: "Do I need a team to participate?",
-    description: "You can register for HackWesTX without a team, but collaborating with others can enhance your experience.",
-    icon: ""
+    description: "Come solo or bring your crew! While you can register individually, we'll help you find the perfect team. It's all about collaboration and creating something amazing together! 🤝",
+    icon: "👥"
   },
   {
-    value: "Will there be free items and food provided?",
-    description: "Yes! All participants will be well-fed and receive swag!",
-    icon: ""
+    value: "What's included in the experience?",
+    description: "Get ready for the full package! Enjoy delicious meals, awesome swag, access to workshops, mentorship, and the chance to win incredible prizes. Plus, you'll get to network with industry professionals and fellow innovators! 🎁",
+    icon: "🎯"
   },
   {
-    value: "Can I register in advance?",
-    description: "Yes! Registrations will open soon.",
-    icon: ""
+    value: "When can I register?",
+    description: "Registration is opening soon! Keep an eye on our social media and website for the big announcement. Don't miss out on this incredible opportunity! ⏰",
+    icon: "📅"
   },
   {
     value: "What are the guidelines for participants?",
-    description: "Since we are a MLH partnered event, participants are required to follow certain guidelines.",
-    icon: ""
+    description: "As an MLH partnered event, we follow their Code of Conduct to ensure everyone has a safe and enjoyable experience. Respect, inclusivity, and innovation are our core values! 🌟",
+    icon: "📋"
   },
   {
-    value: "How long does the hackathon last?",
-    description: "The hackathon typically lasts for 24 hours.",
-    icon: ""
+    value: "How long is the hackathon?",
+    description: "It's a thrilling 24-hour adventure! From idea to implementation, you'll have one full day to create something amazing. Don't worry - we'll keep you energized with food, workshops, and fun activities! ⚡",
+    icon: "⏱️"
   },
   {
-    value: "What should I bring to the hackathon?",
-    description: "Participants should bring their laptops, chargers, any necessary hardware, and their creative ideas!",
-    icon: ""
+    value: "What should I bring?",
+    description: "Pack your laptop, chargers, and creative spirit! We'll provide the space, internet, and resources. Don't forget your enthusiasm and willingness to learn! 🎒",
+    icon: "💼"
   },
   {
-    value: "Is there a theme for this hackathon?",
-    description: "Yes, the theme for HackWesTX is Wild West. It's recommended to align your project with this theme.",
-    icon: ""
+    value: "What's the theme for HackWesTX VI?",
+    description: "Welcome to the Wild West of Innovation! This year's theme celebrates the spirit of exploration and innovation. Let your creativity run wild and build something that would make the pioneers proud! 🤠",
+    icon: "🌵"
   },
   {
-    value: "Will there be workshops or mentorship available?",
-    description: "Yes, we will have workshops and mentors available to assist participants throughout the hackathon.",
-    icon: ""
+    value: "Will there be workshops and mentorship?",
+    description: "Absolutely! We've got an amazing lineup of workshops, mentors, and industry experts ready to help you level up your skills. From coding to design, we've got you covered! 🎓",
+    icon: "👨‍🏫"
   },
   {
     value: "Can non-students participate?",
-    description: "HackWesTX is primarily for students, but exceptions may apply. Contact us for more details.",
-    icon: ""
+    description: "While HackWesTX is primarily for students, we welcome everyone who's passionate about technology and innovation. Contact us to discuss your participation! 🌟",
+    icon: "🎓"
   },
   {
     value: "How are projects judged?",
-    description: "Projects are judged based on a predetermined ruberic",
-    icon: ""
+    description: "Projects are evaluated based on creativity, technical complexity, and potential impact. Our expert judges will look for innovation, execution, and how well you've embraced the Wild West theme! 🏆",
+    icon: "⚖️"
   },
   {
     value: "What are the rules?",
-    description: "You can read the rules here",
+    description: "Check out our comprehensive rules and Code of Conduct to ensure a fair and fun experience for everyone!",
     link: "https://drive.google.com/file/d/1YGs6yog6DoscVEoYnylkxPMQSBE9KWIr/view?usp=drive_link",
     linkText: "HackWesTX Rules and Code of Conduct",
-    icon: ""
+    icon: "📜"
   },
   {
     value: "MLH Code of Conduct",
-    description: "You can read the MLH Code of Conduct Here.",
+    description: "As an MLH member event, we follow their Code of Conduct to create a safe and inclusive environment for all participants.",
     link: "https://static.mlh.io/docs/mlh-code-of-conduct.pdf",
     linkText: "MLH Code of Conduct",
-    icon: ""
-  },
-  // Add more questions as needed
+    icon: "🤝"
+  }
 ];
-
 
 export { faq, faqNew };
