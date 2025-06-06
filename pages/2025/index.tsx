@@ -49,7 +49,7 @@ function Home_2025() {
         <>
             <style>{sparkleStyles}</style>
             <Grid container overflow="clip" className="bg-gradient-to-b from-gray-900 to-black">
-                <div className="flex flex-col justify-center w-full h-full gap-y-5">
+                <div className="flex flex-col justify-center w-full h-full gap-y-8">
                     <div className="relative w-full flex justify-center" id="home">
                         <Grid item xs={12}>
                             <Image
@@ -82,27 +82,27 @@ function Home_2025() {
                             HackWesTX is a <div className="inline text-blue-500 sparkle-text">24-hour</div> event.
                         </div>
                     </div>
-                    <Grid item xs={12} mt={10} px="auto" className="bg-gray-800 bg-opacity-50 py-8 rounded-xl mx-4">
+                    <div className="bg-gray-800 bg-opacity-50 py-8 rounded-xl mx-4">
                         <ScheduleBloc />
-                    </Grid>
-                    <div className="bg-gray-800 bg-opacity-50 py-8 rounded-xl mx-4 my-8">
-                        <SponsorBlock/>
                     </div>
-                    <div className="bg-gray-800 bg-opacity-50 py-8 rounded-xl mx-4 my-8">
+                    <div className="bg-gray-800 bg-opacity-50 py-8 rounded-xl mx-4">
+                        <SponsorBlock />
+                    </div>
+                    <div className="bg-gray-800 bg-opacity-50 py-8 rounded-xl mx-4">
                         <SectionHeader header="FAQ" />
                         <div className="flex flex-col mx-auto w-4/5 my-8">
-                            <div className="text-center font-light text-3xl w-3/4 gap-6 mx-auto my-8">
+                            <div className="text-center font-light text-3xl mx-auto">
                                 For any additional questions{" "}
-                                <Link className="text-blue-500 hover:text-purple-500 transition-colors duration-300 m-0 p-0 sparkle-text" href={"mailto:contact@hackwestx.tech"}>
-                                    contact us.
+                                <Link className="text-blue-500 hover:text-purple-500 transition-colors duration-300 sparkle-text" href="mailto:contact@hackwestx.tech">
+                                    contact us
                                 </Link>
                             </div>
                             <FrequentQuestions />
                         </div>
                     </div>
-                    <div className="bg-gray-800 bg-opacity-50 py-8 rounded-xl mx-4 my-8">
+                    <div className="bg-gray-800 bg-opacity-50 py-8 rounded-xl mx-4">
                         <SectionHeader header="Our Team" />
-                        <NewTeam/>
+                        <NewTeam />
                     </div>
                     <Footer />
                     {showButton && (

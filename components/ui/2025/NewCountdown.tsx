@@ -1,6 +1,5 @@
-import { Box, Stack, Typography, Grid } from "@mui/material";
+import { Box, Grid, Stack, Typography } from "@mui/material";
 import Countdown, { CountdownRenderProps } from "react-countdown";
-import styles from "../../styles/Home.module.css";
 
 const HWTCountdown = () => {
   const renderer = (date: CountdownRenderProps) => {
@@ -11,7 +10,7 @@ const HWTCountdown = () => {
           spacing={{ xs: 1, sm: 2, md: 3, lg: 4 }}  // Responsive spacing
           alignItems="center"
           justifyContent="center"
-          color="#000000"
+          color="#ffffff"
           my={4}
           sx={{ width: '100%', textAlign: 'center' }}
         >
@@ -58,7 +57,7 @@ const HWTCountdown = () => {
 
   return (
     <Countdown
-      date={new Date("September 14, 2024 08:00:00")}
+      date={new Date("September 13, 2025 08:00:00")}
       renderer={renderer}
     />
   );
