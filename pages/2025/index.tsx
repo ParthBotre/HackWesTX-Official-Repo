@@ -19,22 +19,9 @@ const sparkleStyles = `
     text-shadow: 0 0 10px rgba(138, 43, 226, 0.6), 0 0 20px rgba(0, 191, 255, 0.4);
 }
 
-.section-divider {
-    background: linear-gradient(to right, rgba(96, 165, 250, 0.1), rgba(168, 85, 247, 0.1));
-    backdrop-filter: blur(10px);
-    border: 1px solid rgba(96, 165, 250, 0.2);
-    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
-    transition: all 0.3s ease-in-out;
-}
-
-.section-divider:hover {
-    background: linear-gradient(to right, rgba(96, 165, 250, 0.15), rgba(168, 85, 247, 0.15));
-    border-color: rgba(96, 165, 250, 0.3);
-}
-
 .section-transition {
     position: relative;
-    margin: 2rem 0;
+    margin: 4rem 0;
 }
 
 .section-transition::before {
@@ -44,7 +31,7 @@ const sparkleStyles = `
     left: 0;
     right: 0;
     height: 2rem;
-    background: linear-gradient(to bottom, rgba(2, 1, 22, 0) 0%, rgba(2, 1, 22, 0.5) 100%);
+    background: linear-gradient(to bottom, rgba(2,1,22,0) 0%, rgba(2,1,22,0.3) 100%);
     pointer-events: none;
 }
 
@@ -55,7 +42,7 @@ const sparkleStyles = `
     left: 0;
     right: 0;
     height: 2rem;
-    background: linear-gradient(to top, rgba(2, 1, 22, 0) 0%, rgba(2, 1, 22, 0.5) 100%);
+    background: linear-gradient(to top, rgba(2,1,22,0) 0%, rgba(2,1,22,0.3) 100%);
     pointer-events: none;
 }
 `;
@@ -123,27 +110,21 @@ function Home_2025() {
                         </div>
                     </div>
                     <div className="section-transition">
-                        <div className="section-divider py-8 rounded-xl mx-4">
-                            <ScheduleBloc />
-                        </div>
+                        <ScheduleBloc />
                     </div>
                     <div className="section-transition">
-                        <div className="section-divider py-8 rounded-xl mx-4">
-                            <SponsorBlock />
-                        </div>
+                        <SponsorBlock />
                     </div>
                     <div className="section-transition">
-                        <div className="section-divider py-8 rounded-xl mx-4">
-                            <SectionHeader header="FAQ" />
-                            <div className="flex flex-col mx-auto w-4/5 my-8">
-                                <div className="text-center font-light text-3xl mx-auto text-white">
-                                    Got questions?{" "}
-                                    <Link className="sparkle-text bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-purple-500 hover:from-purple-400 hover:to-blue-500 transition-all duration-300" href="mailto:contact@hackwestx.tech">
-                                        Contact us
-                                    </Link>
-                                </div>
-                                <FrequentQuestions />
+                        <SectionHeader header="FAQ" />
+                        <div className="flex flex-col mx-auto w-4/5 my-8">
+                            <div className="text-center font-light text-3xl mx-auto text-white">
+                                Got questions?{" "}
+                                <Link className="sparkle-text bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-purple-500 hover:from-purple-400 hover:to-blue-500 transition-all duration-300" href="mailto:contact@hackwestx.tech">
+                                    Contact us
+                                </Link>
                             </div>
+                            <FrequentQuestions />
                         </div>
                     </div>
                     <div className="section-transition">

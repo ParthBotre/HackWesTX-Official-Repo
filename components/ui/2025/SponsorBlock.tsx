@@ -28,6 +28,10 @@ function IndividualSponsor({ name, link, avatarSrc }: SponsorType) {
         height: sxHeight,
         mx: "auto",
         my: 5,
+        transition: 'transform 0.3s ease-in-out',
+        '&:hover': {
+          transform: 'scale(1.05)',
+        },
       }}
     >
       <Link href={link} rel="noopener" target="_blank">
@@ -39,20 +43,25 @@ function IndividualSponsor({ name, link, avatarSrc }: SponsorType) {
 
 const SponsorBlock = () => {
   return (
-    <div>
+    <div style={{
+      background: 'linear-gradient(180deg, rgba(2,1,22,0.5) 0%, rgba(1,0,16,0.7) 100%)',
+      backdropFilter: 'blur(10px)',
+      borderRadius: '24px',
+      padding: '2rem'
+    }}>
       <SectionHeader header="OUR SPONSORS" />
       <Grid
         container
         spacing={3}
-        justifyContent="center"  // Center the grid items horizontally
+        justifyContent="center"
       >
         {sponsors2024.map((sponsor, index) => (
           <Grid
             item
-            xs={12}     // Full width on extra small screens
-            sm={6}      // Half width on small screens
-            md={4}      // One-third width on medium screens
-            lg={3}      // One-fourth width on large screens
+            xs={12}
+            sm={6}
+            md={4}
+            lg={3}
             key={index}
           >
             <IndividualSponsor
