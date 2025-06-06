@@ -60,7 +60,7 @@ const Footer = () => {
           <IconLink
             href={`mailto:contact@hackwestx.tech?subject=Quick%20HackWesTX%20Question`}
             child={<MailIcon />}
-            color='#000000'
+            color='#ffffff'
           />
         </Stack>
         </div>
