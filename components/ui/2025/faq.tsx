@@ -10,14 +10,14 @@ export default function FrequentQuestions() {
       className="bg-opacity-50 border border-blue-400/20 rounded-lg mb-2 hover:bg-blue-400/10 transition-colors duration-300"
     >
       <Accordion.Control 
-        icon={item.icon}
-        className="text-white"
+        //icon={item.icon}
+        className="text-white font-bold"
       >
         <span className="text-lg font-medium bg-gradient-to-r from-blue-400 to-purple-500 bg-clip-text text-transparent filter drop-shadow-[0_0_10px_rgba(138,43,226,0.6)] drop-shadow-[0_0_20px_rgba(0,191,255,0.4)]">
           {item.value}
         </span>
       </Accordion.Control>
-      <Accordion.Panel className="bg-opacity-30 border border-blue-400/10 rounded-b-lg text-white p-4 -mt-2 mb-2">
+      <Accordion.Panel className="bg-opacity-30 border border-blue-400/10 rounded-b-lg text-black font-bold p-4 -mt-2 mb-2">
         {item.description}
         {item.link && (
           <Link 
