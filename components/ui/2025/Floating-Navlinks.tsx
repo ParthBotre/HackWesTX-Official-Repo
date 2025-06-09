@@ -1,6 +1,6 @@
+import clsx from 'clsx';
 import Link from "next/link";
 import { usePathname } from 'next/navigation';
-import clsx from 'clsx';
 
 export default function Navlinks() {
     const pathname = usePathname();
@@ -8,7 +8,7 @@ export default function Navlinks() {
         
         { name: 'Schedule', href: '#SCHEDULE' },
         { name: 'FAQ', href: '#FAQ' },
-        { name: 'Mentor', href: 'https://forms.gle/9EdvGPvpTAkAsyLW7'},
+        { name: 'Mentor', href: 'https://forms.gle/fxKQdyP53vidMiZg7'},
         { name: 'Apply', href: '/2024/Apply' },
     ];
 
