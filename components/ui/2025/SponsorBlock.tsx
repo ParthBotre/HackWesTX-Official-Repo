@@ -1,6 +1,6 @@
-//import { Box, Grid } from "@mui/material";
-//import Link from "next/link";
-//import sponsors2024 from "../../../lib/constants/sponsors-2024";
+import { Box, Grid } from "@mui/material";
+import Link from "next/link";
+import sponsors2024 from "../../../lib/constants/sponsors-2024";
 import SectionHeader from "./sectionHeader";
 
 var sxWidth = "100%";
@@ -13,7 +13,6 @@ type SponsorType = {
 };
 
 // Commented out IndividualSponsor component as sponsor logos are hidden
-/*
 function IndividualSponsor({ name, link, avatarSrc }: SponsorType) {
     const isMLT = name === "Management Leadership for Tomorrow";
 
@@ -42,7 +41,7 @@ function IndividualSponsor({ name, link, avatarSrc }: SponsorType) {
     </Box>
   );
 }
-*/
+
 
 const SponsorBlock = () => {
   return (
@@ -54,7 +53,7 @@ const SponsorBlock = () => {
     }}>
       <SectionHeader header="OUR SPONSORS" />
       {/* Commented out sponsor logos for 'Coming Soon' message */}
-      {/*
+      {
       <Grid
         container
         spacing={3}
@@ -77,7 +76,7 @@ const SponsorBlock = () => {
           </Grid>
         ))}
       </Grid>
-      */}
+      }
       <div className="text-center text-4xl font-semibold bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-purple-500 my-12">
         Coming Soon.....
       </div>
