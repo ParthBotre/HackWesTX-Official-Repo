@@ -41,12 +41,12 @@ const Footer = () => {
               mt={2}
             >
               <IconLink
-                href="https://discord.com/invite/Y9wUhS5cKp"
+                href="https://discord.gg/e9KAqw5TCE"
                 child={<ForumIcon />}
                 color="#ffffff"
               />
               <IconLink
-                href="https://twitter.com/HWTXOfficial"
+                href="https://www.instagram.com/hwtxofficial/"
                 child={<Instagram />}
                 color="#ffffff"
               />
