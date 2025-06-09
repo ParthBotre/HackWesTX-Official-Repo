@@ -31,7 +31,7 @@ const Footer = () => {
               Celebrating 6 years of HackWesTX!
             </div>
             <div className="text-xl mb-3">
-              Made with <span className="inline text-yellow-400 mx-1">❤</span> by HackWesTX Team
+              Made with <span className="inline text-violet-400 mx-1">💜</span> by HackWesTX Team
             </div>
             <Stack
               justifyContent="space-evenly"
