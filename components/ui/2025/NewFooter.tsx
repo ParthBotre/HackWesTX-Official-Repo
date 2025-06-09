@@ -1,4 +1,5 @@
-import ForumIcon from "@mui/icons-material/Forum";
+import ForumIcon from "@mui/icons-material/Chat";
+
 import Instagram from "@mui/icons-material/Instagram";
 import MailIcon from "@mui/icons-material/Mail";
 import SchoolIcon from "@mui/icons-material/School";
@@ -44,21 +45,29 @@ const Footer = () => {
                 href="https://discord.gg/e9KAqw5TCE"
                 child={<ForumIcon />}
                 color="#ffffff"
+                name="Discord"
+                nameColor="cyan"
               />
               <IconLink
                 href="https://www.instagram.com/hwtxofficial/"
                 child={<Instagram />}
                 color="#ffffff"
+                name="Instagram"
+                nameColor="cyan"
               />
               <IconLink
                 href="https://www.depts.ttu.edu/cs/"
                 child={<SchoolIcon />}
                 color="#ffffff"
+                name="Texas Tech CS"
+                nameColor="cyan"
               />
               <IconLink
                 href={`mailto:contact@hackwestx.tech?subject=Quick%20HackWesTX%20Question`}
                 child={<MailIcon />}
                 color="#ffffff"
+                name="Email"
+                nameColor="cyan"
               />
             </Stack>
           </div>
