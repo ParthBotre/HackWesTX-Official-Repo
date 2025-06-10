@@ -72,6 +72,9 @@ const SponsorBlock = () => {
           </Grid>
         ))}
       </Grid>
+      <div className="text-center text-4xl font-semibold bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-purple-500 my-12">
+        More Sponsors Coming Soon!
+      </div>
     </div>
   );
 };
