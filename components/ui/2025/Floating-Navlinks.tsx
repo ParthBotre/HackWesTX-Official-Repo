@@ -9,7 +9,7 @@ export default function Navlinks() {
         { name: 'Schedule', href: '#SCHEDULE' },
         { name: 'FAQ', href: '#FAQ' },
         { name: 'Mentor', href: 'https://forms.gle/fxKQdyP53vidMiZg7'},
-        { name: 'Apply', href: '/2024/Apply' },
+        { name: 'Apply', href: '/2025/Apply' },
     ];
 
     return (

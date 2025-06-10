@@ -1,4 +1,4 @@
-import { Html, Head, Main, NextScript } from "next/document";
+import { Head, Html, Main, NextScript } from "next/document";
 
 export default function Document() {
   return (
@@ -20,7 +20,7 @@ export default function Document() {
         <NextScript />
         {/* <noscript id="tsNoJsMsg">Javascript on your browser is not enabled.</noscript>
         <script src="https://www.townscript.com/static/Bookingflow/js/townscript-widget.nocache.js" type="text/javascript"></script> */}
-        <a id="mlh-trust-badge" style={{display: "block", "max-width": "100px", "min-width": "60px", "position": "fixed", "right": "50px", "top": 0, "width": "10%", "z-index": 10000}} href="https://mlh.io/na?utm_source=na-hackathon&utm_medium=TrustBadge&utm_campaign=2025-season&utm_content=white" target="_blank" rel="noreferrer"><img src="https://s3.amazonaws.com/logged-assets/trust-badge/2025/mlh-trust-badge-2025-white.svg" alt="Major League Hacking 2025 Hackathon Season" style={{"width": "100%"}}/></a>
+        {/* <a id="mlh-trust-badge" style={{display: "block", "max-width": "100px", "min-width": "60px", "position": "fixed", "right": "50px", "top": 0, "width": "10%", "z-index": 10000}} href="https://mlh.io/na?utm_source=na-hackathon&utm_medium=TrustBadge&utm_campaign=2025-season&utm_content=white" target="_blank" rel="noreferrer"><img src="https://s3.amazonaws.com/logged-assets/trust-badge/2025/mlh-trust-badge-2025-white.svg" alt="Major League Hacking 2025 Hackathon Season" style={{"width": "100%"}}/></a> */}
       </body>
     </Html>
   );
