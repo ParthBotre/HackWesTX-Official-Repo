@@ -2,7 +2,6 @@ import { Box, Grid } from "@mui/material";
 import Link from "next/link";
 import sponsors2024 from "../../../lib/constants/sponsors-2024";
 import SectionHeader from "./sectionHeader";
-import clsx from 'clsx';
 
 var sxWidth = "100%";
 const sxHeight = "25vh";
