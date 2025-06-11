@@ -1,7 +1,7 @@
-import React from "react";
+import { Divider } from "@mantine/core";
 import { Grid } from "@mui/material";
 import Link from "next/link";
-import { Divider } from "@mantine/core";
+import React from "react";
 
 const RegistrationPage = () => {
     return (
