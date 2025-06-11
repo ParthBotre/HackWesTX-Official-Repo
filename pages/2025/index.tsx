@@ -86,9 +86,9 @@ function Home_2025() {
                     <div className="absolute inset-x-0 -top-8 h-8 bg-gradient-to-b from-transparent to-[rgba(2,1,22,0.3)] pointer-events-none"></div>
                     <SectionHeader header="FAQ" />
                     <div className="flex flex-col mx-auto w-4/5 my-8">
-                        <div className="text-center font-light text-3xl mx-auto text-white">
+                        <div className="text-center font-light text-3xl mx-auto text-white mb-4">
                             Got questions?{" "}
-                            <Link className="bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-purple-500 hover:from-purple-400 hover:to-blue-500 transition-all duration-300 filter drop-shadow-[0_0_10px_rgba(138,43,226,0.6)] drop-shadow-[0_0_20px_rgba(0,191,255,0.4)]" href="mailto:contact@hackwestx.tech">
+                            <Link className="bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-purple-500 hover:from-purple-400 hover:to-blue-500 transition-all duration-300 filter drop-shadow-[0_0_10px_rgba(138,43,226,0.6)] drop_shadow-[0_0_20px_rgba(0,191,255,0.4)]" href="mailto:contact@hackwestx.tech">
                                 Contact us
                             </Link>
                         </div>
