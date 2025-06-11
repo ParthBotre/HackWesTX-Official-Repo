@@ -5,6 +5,7 @@ import benhagard from "../../assets/2025-assets/benhagard.png";
 import graysen from "../../assets/2025-assets/graysen.png";
 import joao from "../../assets/2025-assets/joao.png";
 import joey from "../../assets/2025-assets/joey.png";
+import lavneet from "../../assets/2025-assets/lavneet.png";
 import parth from "../../assets/2025-assets/parth.png";
 import tanveer from "../../assets/2025-assets/tanveer.png";
 import tyler from "../../assets/2025-assets/tyler.png";
@@ -64,6 +65,12 @@ export const team2025FallHWT = [
         role: "Sponsorship Team",
         websiteUrl: "https://www.linkedin.com/in/anjali-agg12/",
         avatarSrc: anjali,
+      },
+      {
+        name: "Lavneet Hora",
+        role: "Hacker Experience Director",
+        websiteUrl: "https://www.linkedin.com/in/lavneethora",
+        avatarSrc: lavneet,
       },
       {
         name: "João Carneiro",
