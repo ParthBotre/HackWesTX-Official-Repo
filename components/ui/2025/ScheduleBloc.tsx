@@ -8,7 +8,7 @@ export default function ScheduleBloc() {
   return (
     <Grid item xs={12}>
       <div style={{
-        background: 'linear-gradient(180deg, rgba(2,1,22,0.5) 0%, rgba(1,0,16,0.7) 100%)',
+        background: 'rgb(0, 0, 0)',
         backdropFilter: 'blur(10px)',
         borderRadius: '24px',
         padding: '2rem'

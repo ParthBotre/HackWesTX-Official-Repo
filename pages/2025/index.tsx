@@ -38,7 +38,7 @@ function Home_2025() {
     };
 
     return (
-        <Grid container overflow="clip" className="bg-gradient-to-b from-gray-900 to-black">
+        <Grid container overflow="clip" className="bg-black">
             <div className="flex flex-col justify-center w-full h-full gap-y-8">
                 <div className="relative w-full flex justify-center" id="home">
                     <Grid item xs={12}>
