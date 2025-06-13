@@ -1,19 +1,11 @@
 import { Box, Button, Grid, Typography, useTheme } from "@mui/material";
-// import { getStorage, ref as storageRef } from "firebase/storage";
 import Image from "next/image";
-import { useDownloadURL } from "react-firebase-hooks/storage";
 import flask from "../../assets/icons/flask.svg";
 import Megaphone from "../../assets/icons/megaphone.svg";
 import Recruit from "../../assets/icons/recruit.svg";
-// import { fbase } from "../../lib/Firebase";
 import styles from "../../styles/Home.module.css";
 
-// const storage = getStorage(fbase);
-
 const Sponsorships = () => {
-  // const [value] = useDownloadURL(
-  //   storageRef(storage, `public/HWT_Sponsorship_Packet.pdf`)
-  // );
   const theme = useTheme();
 
   return (
@@ -61,11 +53,9 @@ const Sponsorships = () => {
               mx: "auto",
               borderRadius: 10,
             }}
-
             href="mailto:contact@hackwestx.tech"
             target="_blank"
             referrerPolicy="no-referrer"
-
           >
             ✨ Contact Us ✨
           </Button>
@@ -111,4 +101,5 @@ const Sponsorships = () => {
     </Grid>
   );
 };
+
 export default Sponsorships;

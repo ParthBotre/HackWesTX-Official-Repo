@@ -37,7 +37,7 @@ export const team2025FallHWT = [
       },
       {
         name: "Jose Arthur Claudino",
-        role: "Techical Director",
+        role: "Marketing Director",
         websiteUrl: "https://www.linkedin.com/in/jose-arthur-claudino-250951300",
         avatarSrc: arthur,
       },
