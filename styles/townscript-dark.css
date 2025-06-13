@@ -1,0 +1,27 @@
+/* Townscript Dark Theme Overrides */
+#ts-iframe {
+  background-color: #020116 !important;
+  color: white !important;
+}
+
+#ts-iframe * {
+  background-color: #020116 !important;
+  color: white !important;
+}
+
+#ts-iframe input,
+#ts-iframe select,
+#ts-iframe textarea {
+  background-color: #1a1a1a !important;
+  color: white !important;
+  border: 1px solid #333 !important;
+}
+
+#ts-iframe button {
+  background-color: #6b46c1 !important;
+  color: white !important;
+}
+
+#ts-iframe button:hover {
+  background-color: #805ad5 !important;
+} 

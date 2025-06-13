@@ -14,6 +14,7 @@ const ApplyPage = () => {
           rel="stylesheet"
           href="https://www.townscript.com/static/Bookingflow/css/ts-iframe.style.css"
         />
+        <link rel="stylesheet" href="/styles/townscript-dark.css" />
       </Head>
 
       <Grid container>
