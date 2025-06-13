@@ -19,7 +19,7 @@ const Footer = () => {
       <div className="w-full">
         <div className="w-full rounded-lg flex flex-col md:flex-row bg-gradient-to-b from-[#020116] via-[#010010] to-[#010012] p-8 justify-center items-center gap-y-8">
           <Image
-            src={Logo}
+            src={Logo.src}
             height={400}
             width={418}
             className="rounded-3xl"

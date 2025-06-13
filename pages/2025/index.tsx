@@ -44,7 +44,7 @@ function Home_2025() {
                     <Grid item xs={12}>
                         <Image
                             className="rounded-b-3xl w-full min-w-fit shadow-2xl"
-                            src={BannerImage}
+                            src={BannerImage.src}
                             alt="banner"
                             width={1440}
                             height={810}
