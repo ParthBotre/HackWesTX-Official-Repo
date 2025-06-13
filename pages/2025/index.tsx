@@ -44,12 +44,15 @@ function Home_2025() {
                     <Grid item xs={12}>
                         <Image
                             className="rounded-b-3xl w-full min-w-fit shadow-2xl"
-                            layout="responsive"
                             src={BannerImage}
                             alt="banner"
                             width={1440}
                             height={810}
                             priority
+                            style={{
+                                width: '100%',
+                                height: 'auto',
+                            }}
                         />
                         <div className="absolute inset-0 flex justify-center items-center font-poppins font-bold text-white w-full bg-black bg-opacity-50">
                             <div className="text-4xl sm:text-6xl md:text-8xl lg:text-9xl xl:text-10xl leading-none px-8 py-6 transform hover:scale-105 transition-transform duration-300">

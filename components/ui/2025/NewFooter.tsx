@@ -24,6 +24,11 @@ const Footer = () => {
             width={418}
             className="rounded-3xl"
             alt="HackWesTX Logo"
+            priority
+            style={{
+                maxWidth: '100%',
+                height: 'auto',
+            }}
           />
 
           <div className="flex flex-col justify-center content-center mx-auto w-fit justify-items-center text-white text-center font-poppins">
