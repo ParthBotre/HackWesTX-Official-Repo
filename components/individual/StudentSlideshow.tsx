@@ -23,7 +23,7 @@ import photo8 from "../../public/pastphotos/8.jpg";
 const StudentSlideshow = () => {
   const plugins = [
     new AutoPlay({ duration: 2000, direction: "NEXT", stopOnHover: false }),
-  ];
+  ] as unknown as any;
   return (
     <Flicking
       plugins={plugins}

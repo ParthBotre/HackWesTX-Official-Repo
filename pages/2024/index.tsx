@@ -1,16 +1,15 @@
-import React, { useState, useEffect } from "react";
 import { ArrowUpward } from "@mui/icons-material"; // Importing the arrow icon
-import Floating_Nav from "../../components/ui/2024/Floating-Nav";
+import { Grid } from "@mui/material";
 import Image from "next/image";
+import Link from "next/link";
+import React, { useEffect, useState } from "react";
 import BannerImage from "../../assets/2024-assets/banner.png";
 import FrequentQuestions from "../../components/ui/2024/faq";
-import Link from "next/link";
-import SectionHeader from "../../components/ui/2024/sectionHeader";
+import Floating_Nav from "../../components/ui/2024/Floating-Nav";
 import Footer from "../../components/ui/2024/NewFooter";
-import NewCountdown from "../../components/ui/2024/NewCountdown";
+import NewTeam from "../../components/ui/2024/NewTeam";
 import ScheduleBloc from "../../components/ui/2024/ScheduleBloc";
-import NewTeam from "../../components/ui/2024/NewTeam"
-import { Grid } from "@mui/material";
+import SectionHeader from "../../components/ui/2024/sectionHeader";
 import SponsorBlock from "../../components/ui/2024/SponsorBlock";
 
 function Home_2024() {
@@ -44,12 +43,18 @@ function Home_2024() {
                 <div className="relative w-full flex justify-center" id="home">
                     <Grid item xs={12}>
                         <Image
-                            className="rounded-b-3xl w-full min-w-fit"
-                            layout="responsive"
+                            className="rounded-b-3xl w-full"
                             src={BannerImage}
                             alt="banner"
-                            width={1440}
-                            height={810}
+                            width={1920}
+                            height={1080}
+                            priority
+                            style={{
+                                width: '100%',
+                                height: 'auto',
+                                objectFit: 'cover',
+                                objectPosition: 'center'
+                            }}
                         />
                         <div className="absolute inset-0 flex justify-center items-center font-poppins font-semibold text-white w-full ">
                             <div className="text-4xl sm:text-6xl md:text-8xl lg:text-9xl xl:text-10xl leading-none border-2 backdrop-saturate-200 backdrop-brightness-50 brightness-100 px-6">
@@ -61,7 +66,7 @@ function Home_2024() {
                 <Floating_Nav />
                 <div className="my-4 flex flex-col justify-center text-center font-light text-3xl w-3/4 gap-6 mx-auto">
                     <div>
-                        HackWes<div className="inline text-yellow-700">TX</div> V is Texas Tech’s <div className="inline text-yellow-700">fifth</div> student-run hackathon.
+                        HackWes<div className="inline text-yellow-700">TX</div> V is Texas Tech&apos;s <div className="inline text-yellow-700">fifth</div> student-run hackathon.
                     </div>
                     <div>
                         A hackathon is an event where participants, often working in teams, engage in <div className="inline text-yellow-700">intensive collaboration</div> to create innovative solutions to <div className="inline text-yellow-700">real world problems</div> within a limited time frame.

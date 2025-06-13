@@ -43,15 +43,17 @@ function Home_2025() {
                 <div className="relative w-full flex justify-center" id="home">
                     <Grid item xs={12}>
                         <Image
-                            className="rounded-b-3xl w-full min-w-fit shadow-2xl"
+                            className="rounded-b-3xl w-full shadow-2xl"
                             src={BannerImage.src}
                             alt="banner"
-                            width={1440}
-                            height={810}
+                            width={1920}
+                            height={1080}
                             priority
                             style={{
                                 width: '100%',
                                 height: 'auto',
+                                objectFit: 'cover',
+                                objectPosition: 'center'
                             }}
                         />
                         <div className="absolute inset-0 flex justify-center items-center font-poppins font-bold text-white w-full bg-black bg-opacity-50">
