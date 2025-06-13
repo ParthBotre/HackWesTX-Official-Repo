@@ -1,0 +1,7 @@
+[build]
+  command = "npm install --platform=linux --arch=x64 sharp && npm run build"
+  publish = ".next"
+
+[build.environment]
+  NEXT_TELEMETRY_DISABLED = "1"
+  NODE_VERSION = "18" 
