@@ -53,7 +53,7 @@ const ApplyPage = () => {
               For any additional questions,{' '}
               <Link
                 className="text-purple-700 m-0 p-0"
-                href="mailto:contact@hackwestx.tech"
+                href="mailto:ttudsc@gmail.com"
               >
                 contact us.
               </Link>
