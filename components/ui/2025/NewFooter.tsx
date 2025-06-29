@@ -69,7 +69,7 @@ const Footer = () => {
                 nameColor="cyan"
               />
               <IconLink
-                href={`mailto:contact@hackwestx.tech?subject=Quick%20HackWesTX%20Question`}
+                href={`mailto:ttudsc@gmail.com?subject=Quick%20HackWesTX%20Question`}
                 child={<MailIcon />}
                 color="#ffffff"
                 name="Email"
