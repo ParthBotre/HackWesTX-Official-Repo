@@ -29,23 +29,25 @@ const Footer = () => {
           "rgba(50, 50, 93, 0.1) 0px 3px 30px -12px inset, rgba(0, 0, 0, 0.3) 0px 9px 18px -9px inset",
       }}
     >
-      <Grid item xs={5} my={{ md: "auto", xs: 1 }}>
+      <Grid item xs={12} md={5} my={{ md: "auto", xs: 1 }}>
         <Typography variant="h5" textAlign="center" fontFamily="Bungee">
           Let&apos;s Chat!
         </Typography>
         <Typography
           my={2}
           display="flex"
-          justifyContent="space-evenly"
-          textAlign={{ xs: "center", md: undefined }}
+          justifyContent="center"
+          textAlign="center"
         >
           Made with ❤ by HackWesTX Team
         </Typography>
         <Stack
-          justifyContent="space-between"
+          justifyContent="center"
           direction="row"
-          spacing={0}
+          spacing={2}
           mt={2}
+          flexWrap="wrap"
+          rowGap={2}
         >
           <IconLink
             href="https://discord.com/invite/Y9wUhS5cKp"
