@@ -39,12 +39,13 @@ const Footer = () => {
               Made with <span className="inline text-violet-400 mx-1">💜</span> by HackWesTX Team
             </div>
             <Stack
-              justifyContent="space-evenly"
+              justifyContent="center"
               direction="row"
               className="text-white"
-              spacing={3}
-              width={600}
+              spacing={2}
               mt={2}
+              flexWrap="wrap"
+              rowGap={2}
             >
               <IconLink
                 href="https://discord.gg/e9KAqw5TCE"
