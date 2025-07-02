@@ -26,7 +26,6 @@ import sponsor_VRVizio from "../assets/sponsors/VRVizio.png";
 import DiscordLogo from "../assets/icons/discord-512.webp";
 import InstagramLogo from "../assets/icons/insta-512.png";
 import FAQ from "../components/individual/FAQ";
-import HWTCountdown from "../components/individual/HWTCountdown";
 import Jumbotron from "../components/individual/Jumbotron";
 import Sponsorships from "../components/individual/Sponsorships";
 import StudentSlideshow from "../components/individual/StudentSlideshow";
@@ -163,7 +162,7 @@ const HomePage = () => {
           </Card>
         </Grid>
         <Grid item xs={12} mt={10} px="auto">
-          <HWTCountdown />
+          {/* <HWTCountdown /> */}
         </Grid>
         <Grid item xs={12} height="80vh" display="flex" alignContent="center">
           <StudentSlideshow />
