@@ -1,6 +1,5 @@
 import { Box, Stack, Typography } from "@mui/material";
-import { useState, useEffect } from "react";
-import Countdown, { CountdownRenderProps } from "react-countdown";
+import { CountdownRenderProps } from "react-countdown";
 import styles from "../../styles/Home.module.css";
 
 const HWTCountdown = () => {
@@ -55,11 +54,11 @@ const HWTCountdown = () => {
     );
   };
 
-  return (
-    <Countdown
-      date={new Date("September 14, 2024 08:00:00")}
-      renderer={renderer}
-    />
-  );
+  // return (
+  //   <Countdown
+  //     date={new Date("September 14, 2024 08:00:00")}
+  //     renderer={renderer}
+  //   />
+  // );
 };
 export default HWTCountdown;
