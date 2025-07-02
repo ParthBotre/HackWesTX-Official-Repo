@@ -50,7 +50,7 @@ const Footer = () => {
           rowGap={2}
         >
           <IconLink
-            href="https://discord.com/invite/Y9wUhS5cKp"
+            href="https://discord.gg/yMGRnVuA"
             child={<ForumIcon />}
             color={contrastColor}
           />
@@ -65,7 +65,7 @@ const Footer = () => {
             color={contrastColor}
           />
           <IconLink
-            href={`mailto:contact@hackwestx.tech?subject=Quick%20HackWesTX%20Question`}
+            href={`mailto:ttudsc@gmail.com?subject=Quick%20HackWesTX%20Question`}
             child={<MailIcon />}
             color={contrastColor}
           />
