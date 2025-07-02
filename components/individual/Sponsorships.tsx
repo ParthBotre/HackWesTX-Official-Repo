@@ -53,7 +53,7 @@ const Sponsorships = () => {
               mx: "auto",
               borderRadius: 10,
             }}
-            href="mailto:contact@hackwestx.tech"
+            href="mailto:hwtx.sponsorship@gmail.com"
             target="_blank"
             referrerPolicy="no-referrer"
           >
