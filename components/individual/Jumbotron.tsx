@@ -87,25 +87,29 @@ const Jumbotron = () => {
             }}
           >
             <Button
-              disableRipple={true}
-              href=""
+              disableRipple
               variant="contained"
               color="success"
               size="large"
-              // onClick={() => popup('hackwestx-fall-2023-424424')}
+              fullWidth
               sx={{
                 color: theme.palette.success.contrastText,
                 my: 4,
+                maxWidth: 500,
                 mx: "auto",
                 borderRadius: 10,
+                display: "block",
+                fontSize: "1.5rem",
+                fontWeight: 700,
                 "&.MuiButtonBase-root:hover": {
                   bgcolor: "#2e7d32",
-                  cursor: "default"
+                  cursor: "pointer"
                 }
               }}
             >
-             <Link href={'/2025'}>Visit HackWesTX 2025 Website</Link> 
-
+              <Link href="/2025" style={{ color: "inherit", textDecoration: "none", width: "100%", display: "block", textAlign: "center" }}>
+                Visit HackWesTX 2025 Website
+              </Link>
             </Button>
           </Box>
         </Container>
