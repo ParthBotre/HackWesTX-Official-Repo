@@ -32,11 +32,13 @@ const ApplyPage = () => {
               </Link>
             </div>
             <div>
-              Applications are reviewed on a rolling basis. Completing the
-              application does not guarantee admission.
+              Applications will open soon! Fill out the interest form below to be the first ones to be notified when the appplications open!
+              {/* Applications are reviewed on a rolling basis. Completing the
+              application does not guarantee admission. */}
             </div>
           </div>
 
+          {/*
           <div className="flex justify-center my-8">
             <iframe
               id="ts-iframe"
@@ -46,6 +48,22 @@ const ApplyPage = () => {
               title="Townscript Booking"
               className="max-w-[1000px] min-w-[300px] rounded-lg shadow-lg"
             ></iframe>
+          </div>
+          */}
+          <div className="flex justify-center my-8">
+            {/* TODO: Replace the src below with your actual Google Form link */}
+            <iframe
+              src="https://forms.gle/uW8k4pm54yku313f7"
+              width="100%"
+              height="600"
+              frameBorder="0"
+              marginHeight={0}
+              marginWidth={0}
+              title="Interest Form"
+              className="max-w-[1000px] min-w-[300px] rounded-lg shadow-lg"
+            >
+              Loading…
+            </iframe>
           </div>
 
           <div className="flex flex-col mx-auto w-4/5 my-8">
