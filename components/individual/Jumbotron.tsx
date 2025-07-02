@@ -70,7 +70,7 @@ const Jumbotron = () => {
             mt={{ md: 4 }}
             className={styles.glitch}
           >
-            September 14th - September 15th
+            {/* September 14th - September 15th */}
           </Typography>
           <Typography
             variant="h5"
@@ -104,7 +104,7 @@ const Jumbotron = () => {
                 }
               }}
             >
-             <Link href={'/2024'}>Visit HackWesTX 2024 Website</Link> 
+             <Link href={'/2025'}>Visit HackWesTX 2025 Website</Link> 
 
             </Button>
           </Box>
