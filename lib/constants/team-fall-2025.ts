@@ -74,7 +74,7 @@ export const team2025FallHWT = [
       },
       {
         name: "João Carneiro",
-        role: "Marketiing Team",
+        role: "Marketing Team",
         websiteUrl: "https://www.linkedin.com/in/joaocarneiro05/",
         avatarSrc: joao,
       }
