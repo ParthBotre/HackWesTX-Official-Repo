@@ -1,4 +1,4 @@
-import ihub from "../../assets/sponsors/innovationHub.png";
+import ihub from "../../assets/sponsors/ihub.png";
 // import mlt from "../../assets/sponsors/logo-mlt.png";
 // import mlh from "../../assets/sponsors/mlh-logo-color.png";
 // import pten from "../../assets/sponsors/patterson.png";
