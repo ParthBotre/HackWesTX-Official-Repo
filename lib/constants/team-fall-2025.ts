@@ -14,7 +14,7 @@ export const team2025FallHWT = [
     {
       name: "Parth Botre",
       role: "Director",
-      websiteUrl: "https://www.linkedin.com/in/parthbotre",
+      websiteUrl: "https://www.linkedin.com/in/parth-botre/",
       avatarSrc: parth,
     },
     {
