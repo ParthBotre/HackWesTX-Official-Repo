@@ -15,12 +15,16 @@ import sponsor_tacticalLabs from "../assets/sponsors/TacticalComputingLabs.png";
 import sponsor_acmChapter from "../assets/sponsors/acm-logo.png";
 import sponsor_codePath from "../assets/sponsors/codepath.png";
 import sponsor_Dell from "../assets/sponsors/Dell.png";
+import sponsor_flexradio from "../assets/sponsors/flexradio.png";
 import sponsor_innovationHub from "../assets/sponsors/innovationHub.png";
 import sponsor_Mathworks from "../assets/sponsors/mathworks.png";
 import sponsor_NexTier from "../assets/sponsors/NexTier_OFS.png";
 import sponsor_quext from "../assets/sponsors/Quext.png";
 import sponsor_TRUE from "../assets/sponsors/true.png";
 import sponsor_VRVizio from "../assets/sponsors/VRVizio.png";
+
+
+
 
 
 import DiscordLogo from "../assets/icons/discord-512.webp";
@@ -354,6 +358,23 @@ const HomePage = () => {
             }}
             component={Link}
             href="https://www.dell.com/en-us"
+            rel="noopener"
+            target="_blank"
+          />
+          <Box
+            sx={{
+              width: sxWidth,
+              backgroundImage: `url(${sponsor_flexradio.src})`,
+              backgroundRepeat: "no-repeat",
+              backgroundPositionX: "center",
+              backgroundPositionY: "center",
+              backgroundSize: "contain",
+              height: sxHeight,
+              mx: "auto",
+              my: 5,
+            }}
+            component={Link}
+            href="https://www.flexradio.com/"
             rel="noopener"
             target="_blank"
           />
