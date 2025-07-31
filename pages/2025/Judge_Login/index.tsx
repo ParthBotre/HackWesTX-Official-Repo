@@ -33,7 +33,7 @@ type ScoresState = {
 
 function hasJudgeRole(user: JudgeUser | undefined): boolean {
   const roles = user && (user["https://your-app.com/roles"] || user["roles"]);
-  return !!roles && roles.includes('judge');
+  return !!roles && roles.some(role => role.toLowerCase() === 'judge');
 }
 
 function JudgePortalContent() {
