@@ -1,4 +1,3 @@
-import anjali from "../../assets/2025-assets/anjali.png";
 import arthur from "../../assets/2025-assets/arthur.png";
 import batuhan from "../../assets/2025-assets/batuhan.png";
 import benhagard from "../../assets/2025-assets/benhagard.png";
@@ -60,12 +59,12 @@ export const team2025FallHWT = [
         websiteUrl: "https://www.linkedin.com/in/benjamin-haggard-841b04291/",
         avatarSrc: benhagard,
       },
-      {
-        name: "Anjali Aggarwal",
-        role: "Sponsorship Team",
-        websiteUrl: "https://www.linkedin.com/in/anjali-agg12/",
-        avatarSrc: anjali,
-      },
+      // {
+      //   name: "Anjali Aggarwal",
+      //   role: "Sponsorship Team",
+      //   websiteUrl: "https://www.linkedin.com/in/anjali-agg12/",
+      //   avatarSrc: anjali,
+      // },
       {
         name: "Lavneet Hora",
         role: "Hacker Experience Director",
