@@ -10,7 +10,7 @@ export default function Navlinks() {
         { name: 'FAQ', href: '#FAQ' },
         { name: 'Mentor', href: 'https://forms.gle/gtScYQQ93Bi5YWdU8'},
         { name: 'Apply', href: '/2025/Apply' },
-        { name: 'Judge', href: 'https://forms.gle/W81ieNUXuCw5VVks6' },
+        // { name: 'Judge', href: 'https://forms.gle/W81ieNUXuCw5VVks6' },
         { name: "Volunteer", href: 'https://forms.gle/sYgsdNX2J824egEE7'}
     ];
 

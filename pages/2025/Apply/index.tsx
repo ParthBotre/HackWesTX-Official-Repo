@@ -33,8 +33,7 @@ const ApplyPage = () => {
             </div>
             <div>
               {/* Applications will open soon! Fill out the interest form below to be the first ones to be notified when the appplications open! */}
-              Applications are reviewed on a rolling basis. Completing the
-              application does not guarantee admission.
+              Thanks for your interest in HackWesTX VI! Applications are now closed. If you still wish to participate, we might be able to offer walk-ins on the day of the event, but it's not guaranteed.
             </div>
           </div>
 
