@@ -3,7 +3,7 @@ import ihub from "../../assets/sponsors/ihub.png";
 import conetrix from "../../assets/sponsors/CNX.png";
 import cs from "../../assets/sponsors/cs.png";
 import gdg from "../../assets/sponsors/GDG_NEW.png";
-import kla from "../../assets/sponsors/kla.png";
+import kla from "../../assets/sponsors/KLA.png";
 import mlh from "../../assets/sponsors/mlh-logo-color.png";
 import pten from "../../assets/sponsors/Patterson-lite.png";
 
