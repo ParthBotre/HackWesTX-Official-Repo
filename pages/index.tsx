@@ -70,7 +70,7 @@ const HomePage = () => {
                 href="https://discord.gg/yMGRnVuA"
               >
                 <div style={{ display: "flex", flexDirection: "row", alignItems: "center" }}>
-                  <img style={{ marginRight: "10px" }} src={DiscordLogo.src} width="32" />
+                  <img style={{ marginRight: "10px" }} src={DiscordLogo.src} width="32" alt="Discord" />
                   <span className={styles.glitch} style={{ fontSize: "25px", display: "flex", flexDirection: "row", alignItems: "center" }} >JOIN OUR DISCORD</span>
                 </div>
               </Link>
@@ -80,7 +80,7 @@ const HomePage = () => {
                 href="https://instagram.com/hwtxofficial"
               >
                 <div style={{ display: "flex", flexDirection: "row", alignItems: "center" }}>
-                  <img style={{ marginRight: "10px" }} src={InstagramLogo.src} width="32" />
+                  <img style={{ marginRight: "10px" }} src={InstagramLogo.src} width="32" alt="Instagram" />
                   <span style={{ display: "flex", flexDirection: "row", alignItems: "center" }} >Instagram</span>
                 </div>
               </Link>

@@ -33,7 +33,7 @@ const ApplyPage = () => {
             </div>
             <div>
               {/* Applications will open soon! Fill out the interest form below to be the first ones to be notified when the appplications open! */}
-              Thanks for your interest in HackWesTX VI! Applications are now closed. If you still wish to participate, we might be able to offer walk-ins on the day of the event, but it's not guaranteed.
+              Thanks for your interest in HackWesTX VI! Applications are now closed. If you still wish to participate, we might be able to offer walk-ins on the day of the event, but it&apos;s not guaranteed.
             </div>
           </div>
 
