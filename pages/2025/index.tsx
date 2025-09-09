@@ -1,5 +1,6 @@
 import { ArrowUpward } from "@mui/icons-material"; // Importing the arrow icon
 import { Grid } from "@mui/material";
+import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
 import React, { useEffect, useState } from "react";
@@ -39,6 +40,9 @@ function Home_2025() {
 
     return (
         <>
+            <Head>
+                <title>HackWesTX 2025| Texas Tech University</title>
+            </Head>
             <Grid container overflow="clip" className="bg-black">
                 <div className="flex flex-col justify-center w-full h-full gap-y-8">
                     <div className="relative w-full flex justify-center" id="home">
