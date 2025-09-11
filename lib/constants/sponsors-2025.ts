@@ -26,7 +26,7 @@ const sponsors2025 = [
     {
         name: "WAA",
         avatarSrc: waa,
-        link: "https://www.waapros.com/",
+        link: "https://techconnect.dsa.ttu.edu/organization/waa",
         tier: "Thank You"
     },
     {
