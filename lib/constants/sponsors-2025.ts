@@ -6,7 +6,7 @@ import gdg from "../../assets/sponsors/GDG_NEW.png";
 import kla from "../../assets/sponsors/KLA.png";
 import mlh from "../../assets/sponsors/mlh-logo-color.png";
 import pten from "../../assets/sponsors/Patterson-lite.png";
-
+import waa from "../../assets/sponsors/WAA.png";
 // import standout from "../../assets/sponsors/stand-out-stickers-logo.png";
 import tcl from "../../assets/sponsors/TCL-lite.png";
 const sponsors2025 = [
@@ -22,6 +22,12 @@ const sponsors2025 = [
         avatarSrc: pten,
         link: "https://patenergy.com/",
         tier: "Title"
+    },
+    {
+        name: "WAA",
+        avatarSrc: waa,
+        link: "https://www.waapros.com/",
+        tier: "Thank You"
     },
     {
         name: "Major League Hacking",
