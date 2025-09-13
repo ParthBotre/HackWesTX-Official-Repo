@@ -77,7 +77,7 @@ const faqNew = [
   },
   {
     value: "What's the theme for HackWesTX VI?",
-    description: "Welcome to the Wild West of Innovation! This year's theme celebrates the spirit of exploration and innovation. Let your creativity run wild and build something that would make the pioneers proud!",
+    description: "Welcome to the Wild West of Innovation! This year's theme celebrates the spirit of exploration and innovation of Cyberpunk. Let your creativity run wild and build something that would make the pioneers proud!",
     //icon: "🌵"
   },
   {
